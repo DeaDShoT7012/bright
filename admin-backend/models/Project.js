@@ -1,0 +1,62 @@
+let mongoose = require("mongoose");
+
+let ProjectSchema = mongoose.Schema({
+    projectName:{
+        type:String
+    },
+    customer:{
+        type:String
+    },
+    deadline:{
+        type:String
+    },
+    expQuantity:{
+        type:String
+    },
+    alertDate:{
+        type:String
+    },
+    expense:{
+        type:String
+    },
+    subProjectList:[
+        {
+            subProject:{
+                type:String
+            },
+            topologyList:[
+              { 
+                 topologyName:{
+                    type:String
+                },
+                specification:{
+                    type:String
+                },
+                cost:{
+                    type:String
+                },
+                deadline:{
+                    type:String
+                },
+                deadlineAlert:{
+                    type:String
+                },
+                expQty:{
+                    type:String
+                },
+                width:{
+                    type:String
+                },
+                height:{
+                    type:String
+                },
+                quantity:{
+                    type:String
+                },
+            }
+            ]
+        }
+    ]
+})
+
+module.exports = mongoose.model("project", ProjectSchema);
