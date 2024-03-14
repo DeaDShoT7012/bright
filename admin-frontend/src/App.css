@@ -1,0 +1,277 @@
+body{
+    min-height: 100%;
+    margin: 0;
+    background:#EEEEEE;
+}
+
+.home-box{
+    height: 120px;
+    width: 380px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;   
+    color: #fff;
+}
+
+.home-box .circle{
+    text-decoration: none;
+    background: red;
+    display: inline-block;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 14px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.circle{
+    -webkit-border-radius: 50%;
+}
+.adm_statbar{
+    width: 150px;
+    height: 80px;
+    background: url(/public/graph.png) no-repeat 90%;
+    margin-top: -40px;
+    margin-left: 150px;
+    background-size: contain;
+    /* background: red; */
+}
+.home-items{
+    /* width: 1260px; */
+
+    height: 320px;
+    background: black;
+    border-radius: 10px;
+    
+}
+.home-items ul{
+    padding: 20px 40px;
+}
+.home-items ul li{
+    text-align: center;
+    margin-right: 8%;
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+    list-style: none;
+    line-height: 20px;
+}
+
+.home-items a{
+    text-decoration: none;
+    color: #fff;
+}
+.home-items ul li span{
+    display: block;
+    border: 1px solid #fff;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 93px;
+    height: 93px;
+    line-height: 93px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ic_settings{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/ic_settings.png);
+}
+.ic_induction{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/induction_manager.png); 
+}
+.ic_evemanager{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/event_manager.png);
+
+}
+.ic_mgmaccount{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/manager_accounts.png);
+
+}
+.ic_reports{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/reports.png);   
+}
+.ic_useraccount{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/user_accounts.png);
+}
+.ic_courseeditor{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/course_editor.png); 
+}
+.ic_assessment{
+    background-image: url(https://brightaluminiumworks.com/mod/twitter_bootstrap/vendors/bootstrap/img/assessment_editor.png); 
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.paint-inventory-table{
+    border: 1px solid #ddd;
+    color: #fff;
+    margin: 0;
+    clear: both;
+}
+.paint-inventory-table tr th{
+    background: #e7e7e7;
+    border-radius: 0;
+    color: #333;
+    font-size: 13px;
+    text-align: left;
+    padding: 15px 0 15px 15px;
+}
+.paint-inventory-table tr td{
+    border-bottom: 1px solid #ddd;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px 0 8px 15px;
+}
+table{
+    width: 100%;
+    background-color: grey;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.paint-list table tr:nth-child(even){
+    background: #f7f8fa;
+    color: black;
+}
+.paint-list table tr:nth-child(odd){
+    background: #fff;
+    color: black;
+}
+
+/* -----------------------------------login------------------------------------------ */
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form fieldset{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;  
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.login-body {
+  background: #585B6C;  
+  /* background-image: url(https://brightaluminiumworks.com//mod/twitter_bootstrap/vendors/bootstrap/img/bright_wallpaper.jpg); */
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* ----------------------paint project------------------------ */
+
+.paint-project-dashboard{
+    background: #fff;
+    height: 250px;
+    width: 600px;
+}
+
+.paint-project-dashboard h2{
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.paint-project-edit{
+    display: block;
+    float: right;
+    line-height: 20px;
+    font-size: 13px;
+    color: #FFF;
+    padding: 2px 25px;
+    border-radius: 13px;
+    background: #4c4c4c !important;
+    border: 1px solid #434343;
+    margin: 9px 10px 0 0;
+}
+.paint-project-span{
+    display: block;
+    width: 16px;
+    height: 6px;
+    margin-left: 3%;
+}
+.view-materialType h6{
+    text-align: left;
+    font-size: 13px;
+    padding-left: 15px;
+    line-height: 38px;
+}
+.view-materialType h6:nth-child(odd){
+background: #FFF;
+}
+.view-materialType h6:nth-child(even){
+    background: #efefef;
+    border-top: 1px solid #dce0e2;
+}
